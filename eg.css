@@ -1,0 +1,29 @@
+#container{
+width:cover;
+margin:0px auto;
+}
+#left-column
+{
+width:cover;
+margin:0px auto;
+}
+#right-column
+{
+width:cover;
+margin:0px auto;
+}
+@media screen and
+{
+#container{
+width:cover;
+margin:0px auto;
+}
+#left-column{
+width:cover;
+margin:0px auto;
+}
+#right-column{
+width:cover;
+margin:0px auto;
+}
+}

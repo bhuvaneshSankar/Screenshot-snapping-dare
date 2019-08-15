@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h4>hustler's dare</h4>
+<link rel=stylesheet href="des.css" type="text/css" media=screen>
+<link rel=stylesheet href="eg.css" type="text/css">
+</head>
+<body>
+<!--Heading-->
+
+
+<h3>
+I am your
+</h3>
+<!--function call-->
+<div id="runningTxt">
+</div>
+
+<script>
+
+var text = [
+    "crush",
+    "boyfriend/girlfriend",
+    "classmate",
+    "life partner",
+    "best friend",
+    "business partner",
+    "childhood friend",
+    "enemy",
+    "well wisher",
+    "fan",
+    "dream boy/girl",
+    "bae",
+    "crime partner",
+    "king/Queen",
+    "soulmate",
+    "driver",
+    "personal assistant",
+    "role model",
+    "twin",
+    "brother/sister"];
+
+    var counter = 0;
+    var elem = document.getElementById("runningTxt");
+    setInterval(change, 0);
+    function change()
+    {
+     elem.innerHTML = text[counter];
+        counter++;
+        if(counter >= text.length) { counter = 0; }
+    }
+
+</script>
+
+<div id="info">
+Created By:s.bhuvanesh
+</div>
+
+</html>
